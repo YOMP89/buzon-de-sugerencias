@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buzón de Sugerencias - Colegio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buzón de Sugerencias</h1>
+        <form id="suggestion-form">
+            <label for="name">Nombre (Opcional):</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre">
+
+            <label for="email">Correo Electrónico (Opcional):</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico">
+
+            <label for="suggestion">Sugerencia:</label>
+            <textarea id="suggestion" name="suggestion" placeholder="Escribe tu sugerencia aquí..." required></textarea>
+
+            <button type="submit">Enviar Sugerencia</button>
+        </form>
+        <div id="thank-you-message" class="hidden">
+            <h2>¡Gracias por tu sugerencia!</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
