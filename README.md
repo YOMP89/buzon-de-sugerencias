@@ -1,5 +1,8 @@
 # Buzón de Sugerencias para Colegio
 
+![Pantalla de muestra](pantalla-de-muestra.jpg)
+
+
 Este es un proyecto web sencillo que implementa un buzón de sugerencias para un colegio. Está desarrollado utilizando HTML, CSS y JavaScript puro.
 
 ## Características
